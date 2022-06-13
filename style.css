@@ -1,0 +1,84 @@
+
+table{
+	padding:0px;
+	height:50%;
+	
+}
+
+body{
+	background-image:url("dark1.jpg")  ;
+	
+	background-repeat:no-repeat;
+	font-family:arial;
+	background-size:cover;
+	
+}
+h1{
+	
+	text-align:center;
+	background:black;
+	opacity:.8;
+	color:brown;
+	
+}
+p{
+	color:white;
+	text-align:center;
+	background:black;
+	opacity:.8;
+	margin-top:10%;
+	margin-left:50%;
+	position:fixed;
+}
+ul li{
+	
+	float:left;
+	width:250px;
+	height:40px;
+	background-color:black;
+	opacity:.8;
+	line-height:40px;
+	text-align:center;
+	font-size:18x;
+	color:red;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+ul li a:hover{
+	background-color:green;
+}
+ul li ul li{
+	display:none;
+	
+	
+}
+ul li:hover ul li{
+	
+	display:block;
+}
+ul li ul li :hover ul li{
+	
+	display:block;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none:
+	color:white;
+}
+.scroll{
+	animation-name:lr;
+	animation-duration:25s;
+	animation-iteration-count:infinite;
+	
+}	
+@keyframes lr{
+	
+	from{transform::translateX(-350px)}
+	to{transform:translateX(1350px)}
+
+	
